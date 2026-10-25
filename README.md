@@ -36,7 +36,7 @@ After installing 7-Zip, I downloaded Oracle VirtualBox and installed it on my co
 
 
 <!-- Add your VirtualBox screenshot here -->
-![VirtualBox Installation](01-VirtualBox-Installation.png)
+![VirtualBox Installation](1-VirtualBox-Installation.png)
 
 ### Step 3: Download Kali Linux
 
