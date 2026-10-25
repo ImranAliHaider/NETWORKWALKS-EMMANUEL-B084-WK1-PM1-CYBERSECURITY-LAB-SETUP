@@ -82,13 +82,29 @@ After completing the initial setup, I created a snapshot of the virtual machine.
 <!-- Add your snapshot screenshot here -->
 ![Kali Linux Snapshot](6-Snapshots.png)
 
-## Testing the Internet Connection
+
+## Troubleshooting
+
+### Problem 1: Internet Connectivity
+
+After configuring the static IP address in Kali Linux, the internet connection may stop working because of incorrect network settings.
+
+Solution:
+
+1. I checked the network connection settings.
+
+2. I verified the IP address and gateway.
+
+3. I restarted the network connection.
+
+4. I opened Google in the browser to test the internet connection.
 
 I tested the internet connection in Kali Linux by opening Google in the web browser. Google opened successfully, which showed that the internet was working.
 
-![Google Opened Successfully](Google-Test.png)
+![Google Opened Successfully](7-Google-Test.png)
 
-## 📚 What I Learned
+
+## What I Learned
 
 During this project, I learned:
 
@@ -99,11 +115,11 @@ During this project, I learned:
 - How to create a VM snapshot.
 - How to save screenshots and document my work.
 
-## 🔒 Safe Use
+## Safe Use
 
 I will use this lab for learning and practice only. I will perform security testing only on my own systems or on systems for which I have permission.
 
-## 🚀 Future Plans
+##  Future Plans
 
 In the future, I plan to:
 
@@ -113,12 +129,7 @@ In the future, I plan to:
 - Add another virtual machine for testing.
 - Explore basic cybersecurity tools.
 
-## 👨‍🎓 About This Project
 
-**Project:** Cybersecurity Lab Setup  
-**Program:** Cybersecurity Internship  
-**Week:** 01  
-**Level:** Beginner
 
 This project helped me understand the basic steps required to create a virtual lab for cybersecurity learning.
 
