@@ -73,27 +73,20 @@ After starting Kali Linux, I checked the network connection and IP address. I al
 
 
 <!-- Add your actual terminal screenshot here -->
-![Network Configuration](5-kali-Network-Setting.png)
+![Network Configuration](5-Kali-Network-Setting.png)
 
-### Step 6: Create a Snapshot
+### Step 7: Create a Snapshot
 
 After completing the initial setup, I created a snapshot of the virtual machine. A snapshot saves the VM's current state so I can return to it if something goes wrong during future practice.
 
 <!-- Add your snapshot screenshot here -->
 ![Kali Linux Snapshot](6-Snapshots.png)
 
-## ✅ Testing
+## Testing the Internet Connection
 
-I used basic commands to check whether Kali Linux was working correctly.
+I tested the internet connection in Kali Linux by opening Google in the web browser. Google opened successfully, which showed that the internet was working.
 
-| Command | Purpose |
-|---|---|
-| `ip a` | Check the IP address |
-| `ip route` | Check the network route |
-| `ping -c 4 8.8.8.8` | Test internet connectivity |
-| `nmap --version` | Check whether Nmap is installed |
-
-**Note:** I will add my actual results and screenshots after running these commands.
+![Google Opened Successfully](Google-Test.png)
 
 ## 📚 What I Learned
 
