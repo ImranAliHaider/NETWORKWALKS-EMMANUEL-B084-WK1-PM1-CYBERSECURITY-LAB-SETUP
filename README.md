@@ -38,51 +38,49 @@ After installing 7-Zip, I downloaded Oracle VirtualBox and installed it on my co
 <!-- Add your VirtualBox screenshot here -->
 ![VirtualBox Installation](1-VirtualBox-Installation.png)
 
-### Step 3: Download Kali Linux
+### Step 3: Create the NAT Network
+I opened VirtualBox and went to the Network settings. I created a NAT Network to allow virtual machines to communicate and access the internet.
+
+**Steps:**
+1. Open VirtualBox.
+2. Go to Tools → Network.
+3. Open the NAT Networks tab.
+4. Click Create and configure the network.
+5. Save the settings.
+   
+![NAT Network](2-Create-NAT-Network.png)
+
+
+### Step 4: Download Kali Linux
 
 Next, I downloaded the Kali Linux virtual machine package from the official website. I extracted the files when required and opened the virtual machine in VirtualBox.
 
-**Download:** https://www.kali.org/get-kali/
-
-**Screenshot:**
 <!-- Add your Kali Linux download or import screenshot here -->
-![Kali Linux Setup](screenshots/03-kali-linux-setup.png)
+![Kali Linux Setup](3-Kali-Linux.png)
 
-### Step 4: Configure the Virtual Machine
+### Step 5: Configure the Virtual Machine
 
 I checked the virtual machine settings before starting Kali Linux. I assigned memory to the VM and selected the appropriate network option in VirtualBox.
 
 The settings used on my computer should be documented with screenshots.
 
-**Screenshot:**
 <!-- Add your VM settings screenshot here -->
-![Virtual Machine Settings](screenshots/04-vm-settings.png)
+![Virtual Machine Settings](4-VM-Network-Adapter-Configuration.png)
 
-### Step 5: Configure the Network
+### Step 6: Configure the Network
 
 After starting Kali Linux, I checked the network connection and IP address. I also learned how the IP address, gateway, and DNS help a computer communicate with other devices and access the internet.
 
-Commands used to check the network:
 
-```bash
-ip a
-ip route
-ping -c 4 8.8.8.8
-```
-
-These commands help me check the network interfaces, default route, and internet connectivity. The results may differ depending on the network configuration.
-
-**Screenshot:**
 <!-- Add your actual terminal screenshot here -->
-![Network Configuration](screenshots/05-network-configuration.png)
+![Network Configuration](5-kali-Network-Setting.png)
 
 ### Step 6: Create a Snapshot
 
 After completing the initial setup, I created a snapshot of the virtual machine. A snapshot saves the VM's current state so I can return to it if something goes wrong during future practice.
 
-**Screenshot:**
 <!-- Add your snapshot screenshot here -->
-![Kali Linux Snapshot](screenshots/06-kali-snapshot.png)
+![Kali Linux Snapshot](6-Snapshots.png)
 
 ## ✅ Testing
 
